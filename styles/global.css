@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  overflow: hidden;
+}
 :root {
   --font-leckerli: "Leckerli One", sans-serif;
   --logo-font: 400 2.5rem / normal var(--font-leckerli); /* 40px -> 2.5rem */
