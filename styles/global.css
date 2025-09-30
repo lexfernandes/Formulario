@@ -1,0 +1,57 @@
+:root {
+  --font-leckerli: "Leckerli One", sans-serif;
+  --logo-font: 400 2.5rem / normal var(--font-leckerli); /* 40px -> 2.5rem */
+
+  --font-baloo2: "Baloo 2", sans-serif;
+  --heading-MD: bold 1.75rem / auto var(--font-baloo2); /* 28px -> 1.75rem */
+  --heading-SM: bold 1.125rem / auto var(--font-baloo2); /* 18px -> 1.125rem */
+
+  --font-open-sans: "Open Sans", sans-serif;
+
+  /* Body Md */
+  --body-md-regular: 400 1rem / normal var(--font-open-sans); /* 16px -> 1rem */
+  --body-md-semibold: 600 1rem / normal var(--font-open-sans);
+
+  /* Body Sm */
+  --body-sm-regular: 400 0.875rem / normal var(--font-open-sans); /* 14px -> 0.875rem */
+  --body-sm-semibold: 600 0.875rem / normal var(--font-open-sans);
+
+  /* Body Xs */
+  --body-xs-regular: 400 0.75rem / normal var(--font-open-sans); /* 12px -> 0.75rem */
+  --body-xs-semibold: 600 0.75rem / normal var(--font-open-sans);
+
+  /* ========== Brand ========== */
+  --brand-light: #59b2ff;
+  --brand-mid: #3487cf;
+  --brand-dark: #1d6fb6;
+
+  /* ========== Accent Colors ========== */
+  --purple: #b259ff;
+  --fuschia: #ff59f9;
+  --pink: #ff598b;
+  --orange: #ff8b59;
+  --yellow: #ffcd59;
+
+  --lime: #e1ff59;
+  --green: #59ff91;
+  --cyan: #59fff9;
+  --navy: #6a59ff;
+
+  /* ========== Feedback ========== */
+  --danger: #ff5959;
+
+  /* ========== Input ========== */
+  --input-base: #1c1f21;
+  --input-stroke: #363b40;
+  --input-placeholder: #869198;
+
+  /* ========== Shape ========== */
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2d3136;
+  --shape-hover: #383d42;
+
+  /* ========== Text ========== */
+  --text-body: #c8cdd0;
+  --text-heading: #f9f9f9;
+}
