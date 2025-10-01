@@ -1,14 +1,39 @@
 #app {
   display: grid;
-  grid-template-columns: 32.79% 67.21%;
+  grid-template-columns: 30% 70%;
   height: 100vh;
   overflow: hidden;
+  background-color: #1e1e1e;
+  gap: 1.25rem;
 }
 aside {
-  background-color: blueviolet;
-  padding: 5rem;
+  background-image: url(../assets/img/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.75rem;
+  margin-block: 1.25rem;
+  margin-left: auto;
+  width: 25rem;
+  height: 41.5rem;
+
   & .aside-container {
     max-width: 25rem;
+    padding: 2rem;
+
+    header {
+      img {
+        margin-bottom: 2rem;
+      }
+      h1 {
+        margin-bottom: 0.25rem;
+        font: var(--logo-font);
+        color: var(--pink);
+      }
+      p {
+        font: var(--body-md-regular);
+        color: var(--text-heading);
+      }
+    }
   }
 }
 
