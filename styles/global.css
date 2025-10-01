@@ -11,9 +11,10 @@ body {
   --font-leckerli: "Leckerli One", sans-serif;
   --logo-font: 400 2.5rem / normal var(--font-leckerli); /* 40px -> 2.5rem */
 
-  --font-baloo2: "Baloo 2", sans-serif;
-  --heading-MD: bold 1.75rem / auto var(--font-baloo2); /* 28px -> 1.75rem */
-  --heading-SM: bold 1.125rem / auto var(--font-baloo2); /* 18px -> 1.125rem */
+  --font-baloo: "Baloo 2", sans-serif;
+
+  --head-md: Bold 28px var(--font-baloo);
+  --head-sm: Bold 18px var(--font-baloo);
 
   --font-open-sans: "Open Sans", sans-serif;
 

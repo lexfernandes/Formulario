@@ -38,9 +38,19 @@ aside {
 }
 
 main {
-  background-color: aqua;
-  padding: 5rem;
+  background-color: var(--shape-background);
+  height: 42rem;
+  margin-block: 1.25rem;
+  border-radius: 0.75rem;
+  width: 98%;
+  padding: 5rem 2.5rem;
   overflow: auto;
+
+  h1 {
+    color: var(--text-heading);
+    font: var(--head-md);
+  }
+
   & .main-container {
     max-width: 35rem;
     margin-right: auto;
